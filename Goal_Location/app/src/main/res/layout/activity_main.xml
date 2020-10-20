@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/goal1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="72dp"
+        android:text="Goal_Location"
+        android:textColor="#D8C204"
+        android:textColorHighlight="#1C1C1C"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="أختار ملعبك"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#D8C204"
+        android:textSize="36sp" />
+</RelativeLayout>
